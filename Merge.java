@@ -20,7 +20,7 @@ public class Merge {
 	myframe.setVisible(true); // goes with line above
 	myframe.repaint();*/
 	LinkedList l1 = new LinkedList(); // just a dummy
-	l1.add(new Integer(5)); //test
+	l1.add(5); //test
 	Integer i1 = (Integer)l1.getFirst();
 	System.out.println(i1);
 	Scanner keyScanner = new Scanner(System.in);
